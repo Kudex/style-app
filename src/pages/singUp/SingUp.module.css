@@ -1,0 +1,106 @@
+.modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  margin: 0 auto 0 auto;
+  padding: 10px 0 10px 0;
+  border: none;
+  background-color: black;
+  color: rgba(233, 227, 227, 0.5);
+}
+.singup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.title {
+  text-align: center;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  display: inline;
+  margin: 0 auto 0 auto;
+  background-image: url("../../image/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo-text {
+  display: flex;
+  justify-content: space-between;
+}
+.singup-input-email,
+.singup-input-password,
+.singup-input-text {
+  outline: 1px solid transparent;
+  outline-offset: -1px;
+  padding: 5px;
+  background-color: inherit;
+  border: 1px groove rgba(236, 225, 225, 0.5);
+  color: inherit;
+}
+.singup-input-email::placeholder,
+.singup-input-password::placeholder,
+.singup-input-text::placeholder {
+  color: rgba(235, 225, 225, 0.5);
+}
+.singup-input-text {
+  width: 120px;
+}
+.modal-checkbox-agree {
+  font-size: 12px;
+  text-align: start;
+  color: rgba(245, 245, 245, 0.5);
+}
+.input-check {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+  border: 2px solid rgba(245, 245, 245, 0.5);
+  border-radius: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='13' height='10' viewBox='0 0 13 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.95703 4.75166L1.88825 4.68604L1.81923 4.75141L0.93123 5.59258L0.854858 5.66492L0.930974 5.73753L4.42671 9.07236L4.49574 9.1382L4.56476 9.07236L12.069 1.91352L12.1449 1.84116L12.069 1.76881L11.1873 0.927644L11.1183 0.861826L11.0493 0.927611L4.49577 7.17353L1.95703 4.75166Z' fill='rgba(245, 245, 245, 0.5)' stroke='rgba(245, 245, 245, 0.5)' stroke-width='0.2'/%3E%3C/svg%3E%0A");
+  transition: 500ms;
+  cursor: pointer;
+}
+.input-check:checked {
+  background-color: black;
+  background-size: 11px 8px;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+  border: 2px solid rgba(245, 245, 245, 0.5);
+  border-radius: 2px;
+}
+.btn-modal {
+  height: 40px;
+  padding: 5px;
+  margin-top: 20px;
+  background-color: rgb(200, 236, 235);
+  color: rgb(52, 52, 110);
+  border-color: transparent;
+  border-radius: 4px;
+}
+.wrapper-link {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(111, 151, 165);
+  font-size: 10px;
+}
+.btn-link {
+  background-color: inherit;
+  color: rgb(111, 151, 165);
+  font-size: 10px;
+}
+.footer {
+  margin-top: auto;
+  color: rgb(200, 236, 235, 0.5);
+  font-size: 8px;
+  text-align: center;
+}
